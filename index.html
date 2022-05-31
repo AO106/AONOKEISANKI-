@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <br><br><br><br><br><br>
+    <h1>AONOKEISAN</h1>
+    <br>
+    <input type="button" class="Button-style" value="三角形の面積" onclick="OnButtonClick();"/><br />
+    <br>
+    <input type="button" class="Button-style" value="ルートの計算" onclick="OOnButtonClick();"/><br />
+    <script>
+        function OnButtonClick() {
+            let name = prompt('三角形の底辺を入力(cm)');
+            let namee = prompt('三角形の高さを入力(cm)');
+            let sankaku = name*namee/2
+            alert(name*namee/2 + "㎠")
+        }
+        function OOnButtonClick() {
+            let ruto = prompt('√a , aを入力')
+            alert(Math.sqrt(ruto) + " だよ")
+            
+        }
+    </script>
+    
+</body>
+</html>

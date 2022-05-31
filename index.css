@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+html{
+    
+    text-align: center;
+    background-color: rgb(220, 255, 255);
+    text-shadow: 6em white;
+    font-family: 'Sacramento', cursive;
+}
+
+.Button-style {
+    display: inline-block;
+    padding: .75em 4em;
+    border: 2px solid #333;
+    border-radius: 3em .5em 2em .5em/.4em 2em .5em 3em;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(229, 253, 253);
+    font-size: 1em;
+}
+h1{
+    font-size: 2em;
+}
